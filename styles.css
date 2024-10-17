@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #ececec;
+}
+
+header {
+    background-color: #000000; /* Warna merah Telkom */
+    color: rgba(255, 255, 255, 0.863);
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+}
+
+.logo-img {
+    width: 40px; /* Ukuran gambar/logo */
+    height: 40px; /* Ukuran gambar/logo */
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1; /* Membuat navigasi tumbuh untuk mengisi ruang */
+}
+
+.menu-center,
+.menu-right {
+    list-style: none;
+    display: flex;
+}
+
+.menu-center li,
+.menu-right li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #000000;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item {
+    background: rgba(75, 75, 75, 0.562);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(156, 156, 156, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.service-item h3 {
+    color: #000000; /* Warna teks untuk judul layanan (merah Telkom) */
+}
+
+.service-item p {
+    color: #000000; /* Warna teks untuk deskripsi layanan (abu-abu gelap) */
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #5555558c;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
